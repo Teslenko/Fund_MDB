@@ -1,3 +1,5 @@
+* cd /mnt/c/Users/user/Downloads/Евтушенко/Fund_MDB_New
+
 * git init
 
 * git add .

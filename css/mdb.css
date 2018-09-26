@@ -6431,7 +6431,8 @@ a.waves-effect, a.waves-light {
       -o-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
       transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
       padding-top: 12px;
-      padding-bottom: 12px; }
+      padding-bottom: 12px;
+    }
       .navbar.scrolling-navbar .navbar-nav > li {
         -webkit-transition-duration: 1s;
         -o-transition-duration: 1s;
