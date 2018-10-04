@@ -178,8 +178,8 @@
       <find>vova</find>
       <find>padding-</find>
       <find>logo</find>
-      <find>mp4</find>
       <find>video</find>
+      <find>mp4</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
