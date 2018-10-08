@@ -553,6 +553,7 @@ pre code {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+
 }
 
 @media (min-width: 576px) {
@@ -617,7 +618,9 @@ pre code {
   width: 100%;
   min-height: 1px;
   padding-right: 15px;
+
   padding-left: 15px;
+
 }
 
 .col {
@@ -1170,6 +1173,7 @@ pre code {
   }
 }
 
+
 @media (min-width: 992px) {
   .col-lg {
     -ms-flex-preferred-size: 0;
@@ -1177,6 +1181,7 @@ pre code {
     -ms-flex-positive: 1;
     flex-grow: 1;
     max-width: 100%;
+
   }
   .col-lg-auto {
     -ms-flex: 0 0 auto;
