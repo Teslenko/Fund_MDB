@@ -58,6 +58,20 @@
             .vova{
                 padding-top: 250px;
             }
+
+            .map-responsive{
+                overflow:hidden;
+                padding-bottom:56.25%;
+                position:relative;
+                height:0;
+            }
+            .map-responsive iframe{
+                left:0;
+                top:0;
+                height:100%;
+                width:100%;
+                position:absolute;
+            }
         </style>
         <link rel="icon" href="../img/Logo_ievtushenko_wresting (1).ico" type="image/x-icon">
 
@@ -194,6 +208,7 @@
     <!-- Full Page Intro -->
 
     <!--Footer-->
+    <div class="map-responsive">
     <iframe
             width="1920"
             height="600"
@@ -201,6 +216,7 @@
             src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCnLZwpcw12jPQ36J0Z5LhmC-brb3eYC80
                         &q=Vikentiya+Khvoiky+St,+21,+Kyiv" allowfullscreen>
     </iframe>
+    </div>
     <footer class="page-footer text-center font-small wow fadeIn">
 
         <!--Call to action-->
