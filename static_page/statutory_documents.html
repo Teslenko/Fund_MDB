@@ -19,7 +19,7 @@
         body,
         header,
         .view {
-            height: 128%%;
+            height: 110%;
         }
 
         @media (max-width: 559px) {
@@ -27,7 +27,9 @@
             body,
             header,
             .view {
-                height: 95%;
+                height: 160%;
+
+
             }
         }
 
@@ -55,8 +57,19 @@
             }
         }
 
-        .vova{
-            padding-top: 250px;
+        #statya {
+            display: block;
+            flex-direction: column;
+        }
+        img { width:200px; transition:width 0.5s ease; float: left; }
+        img:hover { width:550px; }
+
+        .thumb img  {
+            border: 2px solid #55c5e9; /* Рамка вокруг фотографии */
+            padding: 5px; /* Расстояние от картинки до рамки */
+            background: #666; /* Цвет фона */
+            margin-right: 10px; /* Отступ справа */
+            margin-bottom: 10px; /* Отступ снизу */
         }
     </style>
     <link rel="icon" href="../img/Logo_ievtushenko_wresting (1).ico" type="image/x-icon">
@@ -76,7 +89,7 @@
 
         <div class="logo" onclick="window.location.href='../index.html'">
             <a class="navbar-brand"  target="_blank">
-                <img src="../img/Logo_ievtushenko_2.png" alt="logo" height="80" width="75">
+                <img src="../img/Logo_ievtushenko_2.png" alt="logo" height="80" width="75" style="width: auto;">
             </a>&nbsp;&nbsp;&nbsp;
         </div>
 
@@ -181,12 +194,20 @@
 
             <!--<a data-fancybox="gallery" href="../img/1str.jpg"><img src="../img/1str.jpg"></a>-->
             <!--<a data-fancybox="gallery" href="../img/2str.jpg"><img src="../img/2str.jpg"></a>-->
-            <div>
-                <a href="../img/2str.jpg" data-fancybox="gallery" data-caption="Lorem ipsum dtotam!">
-                    <img src="../img/2str.jpg" alt="photo"/></a>
-                <h3>499 грн</h3>
-            </div>
 
+            <div id="statya" style="margin-left: 50px">
+                <p class="thumb">
+                <img src="../img/1str.jpg">
+                <img src="../img/2str.jpg">
+                <img src="../img/3str.jpg">
+                    <img src="../img/4str.jpg">
+                    <img src="../img/5str.jpg">
+                    <img src="../img/6str.jpg">
+                    <img src="../img/7str.jpg">
+                    <img src="../img/8str.jpg">
+                    <img src="../img/9str.jpg">
+                </p>
+            </div>
 
 
 
@@ -291,6 +312,10 @@
             document.getElementById("time-counter").innerHTML = "EXPIRED";
         }
     }, 1000);
+
+    $(function () {
+        $("#mdb-lightbox-ui").load("mdb-addons/mdb-lightbox-ui.html");
+    });
 </script>
 </body>
 
