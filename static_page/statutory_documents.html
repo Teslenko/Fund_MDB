@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>Ievtushenko sports development and support charitable fund</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.2/dist/jquery.fancybox.min.css" />
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Bootstrap core CSS -->
@@ -27,7 +28,7 @@
             body,
             header,
             .view {
-                height: 160%;
+                height: 162%;
 
 
             }
@@ -62,7 +63,7 @@
             flex-direction: column;
         }
         img { width:200px; transition:width 0.5s ease; float: left; }
-        img:hover { width:550px; }
+
 
         .thumb img  {
             border: 2px solid #55c5e9; /* Рамка вокруг фотографии */
@@ -191,23 +192,38 @@
 
             <h1 class="display-4 mb-4">Statutory documents</h1>
 
+            <p class="thumb">
+            <a data-fancybox="gallery" href="../img/1str.jpg"><img src="../img/1str.jpg"></a>
+            <a data-fancybox="gallery" href="../img/2str.jpg"><img src="../img/2str.jpg"></a>
+                <a data-fancybox="gallery" href="../img/1str.jpg"><img src="../img/3str.jpg"></a>
+                <a data-fancybox="gallery" href="../img/2str.jpg"><img src="../img/4str.jpg"></a>
+                <a data-fancybox="gallery" href="../img/1str.jpg"><img src="../img/5str.jpg"></a>
+                <a data-fancybox="gallery" href="../img/2str.jpg"><img src="../img/6str.jpg"></a>
+                <a data-fancybox="gallery" href="../img/1str.jpg"><img src="../img/7str.jpg"></a>
+                <a data-fancybox="gallery" href="../img/2str.jpg"><img src="../img/8str.jpg"></a>
+                <a data-fancybox="gallery" href="../img/1str.jpg"><img src="../img/9str.jpg"></a>
 
-            <!--<a data-fancybox="gallery" href="../img/1str.jpg"><img src="../img/1str.jpg"></a>-->
-            <!--<a data-fancybox="gallery" href="../img/2str.jpg"><img src="../img/2str.jpg"></a>-->
+            </p>
 
-            <div id="statya" style="margin-left: 50px">
-                <p class="thumb">
-                <img src="../img/1str.jpg">
-                <img src="../img/2str.jpg">
-                <img src="../img/3str.jpg">
-                    <img src="../img/4str.jpg">
-                    <img src="../img/5str.jpg">
-                    <img src="../img/6str.jpg">
-                    <img src="../img/7str.jpg">
-                    <img src="../img/8str.jpg">
-                    <img src="../img/9str.jpg">
-                </p>
-            </div>
+            <!--<div id="statya" style="margin-left: 50px">-->
+                <!--<p class="thumb">-->
+                <!--<img src="../img/1str.jpg">-->
+                <!--<img src="../img/2str.jpg">-->
+                <!--</p>-->
+                <!--<p class="thumb">-->
+                <!--<img src="../img/3str.jpg">-->
+                <!--<img src="../img/4str.jpg">-->
+                <!--</p>-->
+                <!--<p class="thumb">-->
+                    <!--<img src="../img/5str.jpg">-->
+                    <!--<img src="../img/6str.jpg">-->
+                <!--</p>-->
+                <!--<p class="thumb">-->
+                    <!--<img src="../img/7str.jpg">-->
+                    <!--<img src="../img/8str.jpg">-->
+                    <!--<img src="../img/9str.jpg">-->
+                <!--</p>-->
+            <!--</div>-->
 
 
 
@@ -317,6 +333,8 @@
         $("#mdb-lightbox-ui").load("mdb-addons/mdb-lightbox-ui.html");
     });
 </script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.2/dist/jquery.fancybox.min.js"></script>
 </body>
 
 </html>
