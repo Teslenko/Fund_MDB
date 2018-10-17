@@ -1,23 +1,23 @@
 'use strict';
 
 
-$(document).ready(function(){
-    $('.slider').slick({
-        dots: true,
-        autoplay: true
-    });
-});
-
-$(document).ready(function()
-{
-    $("#tab").pagination({
-        items: 8,
-        contents: 'catalog',
-        previous: 'Назад',
-        next: 'Вперед',
-        position: 'bottom',
-    });
-});
+// $(document).ready(function(){
+//     $('.slider').slick({
+//         dots: true,
+//         autoplay: true
+//     });
+// });
+//
+// $(document).ready(function()
+// {
+//     $("#tab").pagination({
+//         items: 8,
+//         contents: 'catalog',
+//         previous: 'Назад',
+//         next: 'Вперед',
+//         position: 'bottom',
+//     });
+// });
 
 
 function initMap() {
